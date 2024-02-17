@@ -1,4 +1,5 @@
 const signupForm = document.getElementById('signup-form');
+console.log(signupForm);
 
 import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"
 import { auth } from "./firebase.js";
@@ -19,6 +20,7 @@ signupForm.addEventListener('submit' , async (e)=>{
 
       const signupModal=document.getElementById('signup-modal');
       const modal = bootstrap.Modal.getInstance (signupModal);
+      signupForm.reset();
       modal.hide();
       }
 

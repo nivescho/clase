@@ -1,6 +1,9 @@
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
   import { getAuth} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"
+  import { getFirestore, collection, addDoc,onSnapshot, deleteDoc, doc,getDoc,updateDoc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+  
+
 
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
@@ -20,4 +23,16 @@
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+export const db =getFirestore();
 
+// Funciones del CRUD
+export const createTask = (title, description) => addDoc(collection(db, "tasks"), {title, description});
+
+export const onGetTask =(callback)=> onSnapshot(collection(db,"tasks"), callback);
+
+
+export const deleteTask = id => deleteDoc(doc(db,"tasks",id));
+
+export const getTask = id => getDoc(doc(db,"tasks",id));
+
+export const updateTask = (id,newFields) => updateDoc (doc(db,"tasks",id),newFields);
