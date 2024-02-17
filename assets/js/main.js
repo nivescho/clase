@@ -6,7 +6,6 @@ import './firebase/signup_form.js';
 import './firebase/logout.js';
 import './firebase/signin_form.js';
 import './firebase/google_login.js';
-import './firebase/setup_task.js';
 
 
 onAuthStateChanged(auth,async(user)=>
@@ -16,6 +15,8 @@ onAuthStateChanged(auth,async(user)=>
       //si e ingresado
       if (user){
             loginCheck(user);
+            console.log(user);
+            import ("./firebase/setup_task.js").then(({default:setupTask})=>  setupTask(user));
 
       }
 
