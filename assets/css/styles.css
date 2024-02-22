@@ -12,3 +12,61 @@
       background-position: center;
   }
   
+
+#task-content{
+      margin-top: 20px;
+      margin-top: 15px;
+      padding: auto;
+      width: 400px;
+      height: 90px;
+      border-radius: 20px;
+      font-size: 20px;
+      
+      
+
+}
+
+#task-title{
+      width: 400px;
+      height: 60px;
+      font-size: 25px;
+      border-radius: 20px;
+}
+
+#contenido{
+      margin-top: 15px;
+      color: aliceblue;
+      font-size: 25px;
+
+}
+
+#local{
+      margin-top: 25px;
+      padding: auto;
+}
+
+#cuenta{
+      margin-top: 15px;
+      padding: auto;
+      color: aliceblue;
+}
+
+#btn-task-save{
+      margin-top: 15px;
+      padding: auto;
+      width: 200px;
+      height: 70px;
+      border-radius: 20px;
+      font-size: 20px;
+
+}
+
+#card-title{
+      font-size: 25px;
+}
+
+#mapache{
+      margin-left: 40px;
+      margin-top: 20px;
+      color: aliceblue;
+}
