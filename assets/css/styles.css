@@ -6,6 +6,9 @@
       font-style: normal;
     }
     
+body {
+      height: 100vh;
+}
 
 h1 {
     color: rgb(204, 235, 217);
@@ -42,3 +45,17 @@ h1 {
       }
   }
   
+  .custom-modal .modal-content {
+    background-color: #99861d; 
+    color: #abad17; 
+}
+
+.custom-modal .modal-content {
+    background-color:#063128d5 ; 
+    color:  #bd5fbd;
+}
+
+.custom-modal .modal-content {
+    border-color: #0d7564;
+    border-width: 3px;
+}
