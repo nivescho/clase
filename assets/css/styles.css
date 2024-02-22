@@ -63,3 +63,17 @@ label {
     color: rgb(22, 124, 2); /* Color rojo */
   }
   
+  .custom-modal .modal-content {
+    background-color: #99861d; 
+    color: #abad17; 
+}
+
+.custom-modal .modal-content {
+    background-color:#063128d5 ; 
+    color:  #bd5fbd;
+}
+
+.custom-modal .modal-content {
+    border-color: #0d7564;
+    border-width: 3px;
+}
