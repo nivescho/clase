@@ -6,6 +6,15 @@
       font-style: normal;
     }
     
+
 h1 {
     color: rgb(204, 235, 217);
 }
+
+.fondo {
+      background: linear-gradient(to bottom, black, rgb(0, 128, 90));
+      background-size: cover;
+      background-position: center;
+  }
+  
+
