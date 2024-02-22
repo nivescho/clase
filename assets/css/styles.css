@@ -12,3 +12,7 @@
       background-position: center;
   }
   
+  #task-main-container {
+      min-height: 100vh; /* Establece una altura mínima igual a la altura de la ventana */
+  }
+  
