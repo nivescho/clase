@@ -6,67 +6,74 @@
       font-style: normal;
     }
     
+
+h1 {
+    color: rgb(204, 235, 217);
+}
+
 .fondo {
       background: linear-gradient(to bottom, black, rgb(0, 128, 90));
       background-size: cover;
       background-position: center;
   }
   
-
-#task-content{
-      margin-top: 20px;
-      margin-top: 15px;
-      padding: auto;
-      width: 400px;
-      height: 90px;
-      border-radius: 20px;
-      font-size: 20px;
-      
-      
-
+/* Color de fondo del navbar */
+.navbar {
+    background-color: #1b3623; /* Color azul claro */
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+  }
+  
+  /* Color de fondo del container-fluid */
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+    background-color: #364e3b; /* Color azul claro */
+  }
+  
+  /* Opcional: eliminar el espacio alrededor de los elementos internos */
+  .navbar-nav, .navbar-nav > li, .nav-link {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-brand {
+    color: #ecdcdc; /* Cambiar el color del texto a blanco */
+}
+  
+/* Cambiar el color del texto de los enlaces "Signin", "Signup" y "Logout" */
+.nav-link.logged-out {
+    color: #c1d8c1; /* Rojo */
 }
 
-#task-title{
-      width: 400px;
-      height: 60px;
-      font-size: 25px;
-      border-radius: 20px;
+.nav-link.logged-in {
+    color: #c1d8c1; /* Verde */
 }
 
-#contenido{
-      margin-top: 15px;
-      color: aliceblue;
-      font-size: 25px;
 
+  
+  /* Cambiar el color del label */
+label {
+    color: rgb(188, 219, 201); /* Color azul */
+  }
+  
+  /* Cambiar el color del button */
+  button {
+    color: rgb(22, 124, 2); /* Color rojo */
+  }
+  
+  .custom-modal .modal-content {
+    background-color: #99861d; 
+    color: #abad17; 
 }
 
-#local{
-      margin-top: 25px;
-      padding: auto;
+.custom-modal .modal-content {
+    background-color:#063128d5 ; 
+    color:  #bd5fbd;
 }
 
-#cuenta{
-      margin-top: 15px;
-      padding: auto;
-      color: aliceblue;
-}
-
-#btn-task-save{
-      margin-top: 15px;
-      padding: auto;
-      width: 200px;
-      height: 70px;
-      border-radius: 20px;
-      font-size: 20px;
-
-}
-
-#card-title{
-      font-size: 25px;
-}
-
-#mapache{
-      margin-left: 40px;
-      margin-top: 20px;
-      color: aliceblue;
+.custom-modal .modal-content {
+    border-color: #0d7564;
+    border-width: 3px;
 }
