@@ -17,4 +17,49 @@ h1 {
       background-position: center;
   }
   
+/* Color de fondo del navbar */
+.navbar {
+    background-color: #1b3623; /* Color azul claro */
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+  }
+  
+  /* Color de fondo del container-fluid */
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+    background-color: #364e3b; /* Color azul claro */
+  }
+  
+  /* Opcional: eliminar el espacio alrededor de los elementos internos */
+  .navbar-nav, .navbar-nav > li, .nav-link {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-brand {
+    color: #ecdcdc; /* Cambiar el color del texto a blanco */
+}
+  
+/* Cambiar el color del texto de los enlaces "Signin", "Signup" y "Logout" */
+.nav-link.logged-out {
+    color: #c1d8c1; /* Rojo */
+}
 
+.nav-link.logged-in {
+    color: #c1d8c1; /* Verde */
+}
+
+
+  
+  /* Cambiar el color del label */
+label {
+    color: rgb(188, 219, 201); /* Color azul */
+  }
+  
+  /* Cambiar el color del button */
+  button {
+    color: rgb(22, 124, 2); /* Color rojo */
+  }
+  
