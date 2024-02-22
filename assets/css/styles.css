@@ -1,3 +1,6 @@
-body{
-      
-}
+.fondo {
+      background: linear-gradient(to bottom, black, rgb(0, 128, 90));
+      background-size: cover;
+      background-position: center;
+  }
+  
