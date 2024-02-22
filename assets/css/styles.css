@@ -77,3 +77,16 @@ label {
     border-color: #0d7564;
     border-width: 3px;
 }
+
+/* Estilos personalizados para los botones en el modal Signin */
+#signin-modal button[type="submit"] {
+    background-color: #aa101000; /* Azul */
+    color: rgba(255, 255, 255, 0.719); /* Texto blanco */
+    border-color: #0d7564;
+}
+
+#signin-modal #google-login {
+    background-color:#aa101000 ; /* Amarillo */
+    color: rgb(255, 255, 255); /* Texto negro */
+    border-color:#0d7564 ; /* Borde amarillo */
+}
