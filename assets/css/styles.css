@@ -13,6 +13,27 @@
   }
   
   #task-main-container {
-      min-height: 100vh; /* Establece una altura mínima igual a la altura de la ventana */
+      min-height: 100vh; 
+  }
+  
+  .navbar-metallic {
+      border: 2px solid silver; /* Define un borde plateado */
+      background-size: 400% 400%; /* Tamaño del degradado */
+      animation: gradientAnimation 5s ease infinite; /* Agrega una animación para el degradado */
+      position: relative; /* Asegura que el degradado esté contenido dentro del navbar */
+      overflow: hidden; /* Oculta cualquier exceso de brillo que pueda salir del navbar */
+      box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.5); /* Aplica un degradado radial */
+  }
+  
+  @keyframes gradientAnimation {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
   }
   
