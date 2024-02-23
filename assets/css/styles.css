@@ -6,6 +6,9 @@
       font-style: normal;
     }
     
+body {
+      height: 100vh;
+}
 
 h1 {
     color: rgb(204, 235, 217);
@@ -17,50 +20,29 @@ h1 {
       background-position: center;
   }
   
-/* Color de fondo del navbar */
-.navbar {
-    background-color: #1b3623; /* Color azul claro */
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
+  #task-main-container {
+      min-height: 100vh; 
   }
   
-  /* Color de fondo del container-fluid */
-  .container-fluid {
-    padding: 0;
-    margin: 0;
-    background-color: #364e3b; /* Color azul claro */
+  .navbar-metallic {
+      border: 2px solid silver; /* Define un borde plateado */
+      background-size: 400% 400%; /* Tamaño del degradado */
+      animation: gradientAnimation 5s ease infinite; /* Agrega una animación para el degradado */
+      position: relative; /* Asegura que el degradado esté contenido dentro del navbar */
+      overflow: hidden; /* Oculta cualquier exceso de brillo que pueda salir del navbar */
+      box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.5); /* Aplica un degradado radial */
   }
   
-  /* Opcional: eliminar el espacio alrededor de los elementos internos */
-  .navbar-nav, .navbar-nav > li, .nav-link {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .navbar-brand {
-    color: #ecdcdc; /* Cambiar el color del texto a blanco */
-}
-  
-/* Cambiar el color del texto de los enlaces "Signin", "Signup" y "Logout" */
-.nav-link.logged-out {
-    color: #c1d8c1; /* Rojo */
-}
-
-.nav-link.logged-in {
-    color: #c1d8c1; /* Verde */
-}
-
-
-  
-  /* Cambiar el color del label */
-label {
-    color: rgb(188, 219, 201); /* Color azul */
-  }
-  
-  /* Cambiar el color del button */
-  button {
-    color: rgb(22, 124, 2); /* Color rojo */
+  @keyframes gradientAnimation {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
   }
   
   .custom-modal .modal-content {
