@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    color: rgb(204, 235, 217);
+    color: rgba(49, 204, 132, 0.39);
 }
 
 .fondo {
@@ -52,7 +52,7 @@ h1 {
 
 .custom-modal .modal-content {
     background-color:#063128d5 ; 
-    color:  #bd5fbd;
+    color:  #4dccb780;
 }
 
 .custom-modal .modal-content {
@@ -62,13 +62,29 @@ h1 {
 
 /* Estilos personalizados para los botones en el modal Signin */
 #signin-modal button[type="submit"] {
-    background-color: #aa101000; /* Azul */
-    color: rgba(255, 255, 255, 0.719); /* Texto blanco */
+    background-color: #aa101000; 
+    color: rgba(255, 255, 255, 0.719); 
     border-color: #0d7564;
 }
 
 #signin-modal #google-login {
-    background-color:#aa101000 ; /* Amarillo */
-    color: rgb(255, 255, 255); /* Texto negro */
-    border-color:#0d7564 ; /* Borde amarillo */
+    background-color:#aa101000 ; 
+    color: rgb(255, 255, 255); 
+    border-color:#0d7564 ; 
 }
+
+  /* Cambiar el color del texto del enlace de logout */
+  #logout {
+    color: #00ffb3e5; 
+  }
+  
+  .logged-out {
+    color: #f1e8e8e5; 
+  }
+  .logged-out:hover {
+    color: #48c2388f;
+  }
+  .navbar-brand {
+    color: #72b3c78f; 
+  }
+  
