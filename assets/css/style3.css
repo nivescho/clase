@@ -54,10 +54,23 @@ marquee {
 #uno,
 #dos {
   color: white;
-  font-size: 2vw;
+  font-size: 1.5vw;
   text-align: center;
   margin-top: 2vh;
 }
+
+@media only screen and (max-width: 480px) {
+      #uno,
+      #dos {
+        font-size: 2vw;
+      }
+    }
+@media (max-width: 600px) {
+      #uno,
+      #dos {
+        font-size: 3vw;
+      }
+    }
 
 #verde {
   margin: 0 auto;
