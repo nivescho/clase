@@ -8,17 +8,14 @@
     
 body {
       height: 100vh;
+      color: darkcyan;
 }
 
 h1 {
     color: rgba(49, 204, 132, 0.39);
 }
 
-.fondo {
-      background: linear-gradient(to bottom, black, rgb(0, 128, 90));
-      background-size: cover;
-      background-position: center;
-  }
+
   
   #task-main-container {
       min-height: 100vh; 
@@ -75,7 +72,7 @@ h1 {
 
   /* Cambiar el color del texto del enlace de logout */
   #logout {
-    color: #00ffb3e5; 
+    color: #ffffffe5; 
   }
   
   .logged-out {
