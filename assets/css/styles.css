@@ -39,14 +39,7 @@ body {
       min-height: 100vh; 
   }
   
-  .navbar-metallic {
-      border: 2px solid silver; /* Define un borde plateado */
-      background-size: 400% 400%; /* Tamaño del degradado */
-      animation: gradientAnimation 5s ease infinite; /* Agrega una animación para el degradado */
-      position: relative; /* Asegura que el degradado esté contenido dentro del navbar */
-      overflow: hidden; /* Oculta cualquier exceso de brillo que pueda salir del navbar */
-      box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.5); /* Aplica un degradado radial */
-  }
+  
   
   @keyframes gradientAnimation {
       0% {
@@ -75,9 +68,6 @@ body {
     border-width: 3px;
 }
 
-
-
-
 #mapac{
     width: 200px;
     height: 200px;
@@ -99,15 +89,22 @@ body {
 
   /* Cambiar el color del texto del enlace de logout */
   #logout {
-    color: #28d628e0; 
+    color: #000000e7; 
+    font-size: 20px;
   }
   
   .logged-out {
     color: #000000e5; 
+    margin-right: 35px;
+    
   }
   .logged-out:hover {
-    color: #2f00ff8f;
+    color: #205024;
+    font-size: 23px;
+    margin-right: 25px;
   }
+
+
 
 /* Estilos para los elementos del formulario */
 #card-title {
@@ -121,6 +118,8 @@ body {
 #btn-task-save {
     background-color: #13330ac2; /* Cambia el color de fondo del botón a azul */
     color: #ffffff; /* Cambia el color del texto del botón a blanco */
+    margin-top: 17px;
+
 }
 /* Cambiar el tamaño de las letras */
 #card-title {
@@ -135,18 +134,38 @@ body {
 }
 
 #task-title {
-    font-size: 23px; /* Tamaño de fuente para "Content" y "Create Task" */
+    font-size: 16px; /* Tamaño de fuente para "Content" y "Create Task" */
 }
 
 #btn-task-save {
     font-size: 23px; /* Tamaño de fuente para el botón */
   
 }
-/* Estilos para el contenedor del formulario */
 #task-form-container {
-    background-color: #f7f7f7; /* Color de fondo del contenedor */
-    border: 1px solid #ddd; /* Borde del contenedor */
-    padding: 20px; /* Espaciado interno del contenedor */
-    border-radius: 10px; /* Redondear los bordes del contenedor */
+    width: 300px;
+    height: 200px;
+    background-color: #1d4910e8;
+    border: 2px solid hsl(61, 100%, 52%);
+    padding: 1px;
+    border-radius: 5px;
 }
+ /*img del cuadro de datos*/
+ .card {
+    background-image: url('/assets/img/3.png');
+    background-size: 100% 100%; /* Ajustar el tamaño de la imagen para que cubra completamente el contenedor */
+    background-position: top left; /* Mostrar la imagen desde la esquina superior izquierda */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    padding: 20px; /* Añadir un poco de espacio alrededor del contenido */
+    border-radius: 10px; /* Redondear los bordes del contenedor */
+    border-color: rgb(255, 251, 0);
+    width: 650px; /* Establecer un ancho fijo para el contenedor */
+    height: 200px; /* Establecer una altura fija para el contenedor */
+}
+
+
+
+
+
+
+
 
