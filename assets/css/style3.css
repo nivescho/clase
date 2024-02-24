@@ -44,8 +44,24 @@ h1 {
   font-size: 3.5vw;
   color: white;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 1vw;
 }
+
+
+
+@media only screen and (max-width: 480px) {
+      h1 {
+        font-size: 2vw;
+      }
+    }
+@media (max-width: 600px) {
+      h1 {
+        font-size: 4vw;
+      }
+    }
+
+
+
 
 marquee {
   margin-top: 50vh;
@@ -82,3 +98,4 @@ marquee {
   text-align: center;
   margin-top: 5vh;
 }
+
