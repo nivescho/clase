@@ -1,0 +1,82 @@
+
+/*color de las letras*/
+.card-body {
+    color: #000000; /* Color del texto en el cuerpo de la tarjeta */
+    font-size: 25px; /* Establecer el tamaño de la fuente */
+   
+}
+
+.card-body h6,
+.card-body h5 {
+    font-size: 16px; /* Establecer el tamaño de la fuente */
+    color: #000000; /* Color del nombre, fecha y hora */
+}
+
+.card-title {
+    color: #000000; /* Color del título de la tarjeta */
+    font-size: 20px; /* Establecer el tamaño de la fuente */
+}
+
+/*para que no salga el texto del cuadro*/
+.card-body {
+    max-height: 200px; /* Altura máxima del contenedor */
+    overflow: auto; /* Mostrar una barra de desplazamiento si el contenido es demasiado largo */
+    word-wrap: break-word; /* Dividir el texto en palabras y ajustarlo al ancho del contenedor */
+}
+/* Cambiar el color de la barra de desplazamiento */
+.card-body::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+    background-color: #7ab8c4bd; /* Color de fondo de la barra de desplazamiento */
+}
+
+/* Cambiar el color de la barra de desplazamiento al pasar el cursor sobre ella */
+.card-body::-webkit-scrollbar-thumb {
+    background-color: #2cbd2cc2; /* Color de la barra de desplazamiento al pasar el cursor sobre ella */
+}
+/* Estilos para los botones de eliminar y editar */
+.card-body .row {
+    position: absolute; /* Fijar la posición absoluta */
+    bottom: 10px; /* Colocar los botones 10px desde la parte inferior */
+    left: 0; /* Colocar los botones en el borde izquierdo */
+    right: 0; /* Colocar los botones en el borde derecho */
+    margin: 0 auto; /* Centrar horizontalmente los botones */
+    width: 350px; /* Ancho de los botones */
+}
+
+.card-body .row button {
+    width: 80px; /* Ancho de cada botón */
+    margin: 0 5px; /* Margen entre los botones */
+}
+
+/* Cambiar el color de la barra de desplazamiento */
+.comment-container::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+    background-color: #991aaaa6; /* Color de fondo de la barra de desplazamiento */
+}
+
+/* Cambiar el color de la barra de desplazamiento al pasar el cursor sobre ella */
+.comment-container::-webkit-scrollbar-thumb {
+    background-color: #52ff2fcc; /* Color de la barra de desplazamiento al pasar el cursor sobre ella */
+}
+.btn-celeste {
+    color: #000000; /* Color del texto */
+    background-color: #e2ff3d; /* Color de fondo celeste bebé */
+    border-color: #2a6825; /* Color del borde */
+}
+
+.btn-celeste:hover {
+    background-color: #49bd49; /* Color de fondo celeste bebé más claro al pasar el cursor */
+    border-color: #82a8b3; /* Color del borde al pasar el cursor */
+}
+.btn-rojo {
+    color: #000000; /* Color del texto */
+    background-color: #c24646; /* Color de fondo celeste bebé */
+    border-color: #e5ff00; /* Color del borde */
+}
+
+.btn-rojo:hover {
+    background-color: #db0000be; /* Color de fondo celeste bebé más claro al pasar el cursor */
+    border-color: #8700b1d2; /* Color del borde al pasar el cursor */
+}
+
+

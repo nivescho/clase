@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "DotGothic16", sans-serif;
+}
+
+body {
+  background-image: url(./fondito.gif);
+  background-: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  cursor: url('./cursor2.png'), auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #5ecc15;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  font-size: 3.5vw;
+  color: white;
+  text-align: center;
+  margin-top: 1vw;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+      h1 {
+        font-size: 2vw;
+      }
+    }
+@media (max-width: 600px) {
+      h1 {
+        font-size: 4vw;
+      }
+    }
+
+
+
+
+marquee {
+  margin-top: 50vh;
+}
+
+#uno,
+#dos {
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+@media only screen and (max-width: 480px) {
+      #uno,
+      #dos {
+        font-size: 2vw;
+      }
+    }
+@media (max-width: 600px) {
+      #uno,
+      #dos {
+        font-size: 3vw;
+      }
+    }
+
+#verde {
+  margin: 0 auto;
+  width: 20vw;
+  height: 30px;
+  font-size: 25vw;
+  line-height: 0.8;
+  color: #5ecc15;
+  text-align: center;
+  margin-top: 5vh;
+}
+
