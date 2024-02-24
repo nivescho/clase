@@ -26,18 +26,7 @@ h1 {
       min-height: 100vh; 
   }
   
-<<<<<<< HEAD
-  
-=======
-  .navbar-metallic {
-      border: 2px solid silver; /* Define un borde plateado */
-      background-size: 400% 400%; /* Tamaño del degradado */
-      animation: gradientAnimation 5s ease infinite; /* Agrega una animación para el degradado */
-      position: relative; /* Asegura que el degradado esté contenido dentro del navbar */
-      overflow: hidden; /* Oculta cualquier exceso de brillo que pueda salir del navbar */
-      box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.5); /* Aplica un degradado radial */
-    }
->>>>>>> 8fa36faea3265f76283a6f787eb894344655f0a8
+
   
   @keyframes gradientAnimation {
       0% {
@@ -66,15 +55,14 @@ h1 {
     border-width: 3px;
 }
 
-<<<<<<< HEAD
 #mapac{
     width: 200px;
     height: 200px;
 
 }
 
-=======
->>>>>>> 8fa36faea3265f76283a6f787eb894344655f0a8
+
+
 /* Estilos personalizados para los botones en el modal Signin */
 #signin-modal button[type="submit"] {
     background-color: #aa101000; /* Azul */
@@ -88,12 +76,13 @@ h1 {
     border-color:#0d7530 ; /* Borde amarillo */
 }
 
-<<<<<<< HEAD
+
   /* Cambiar el color del texto del enlace de logout */
   #logout {
-    color: #000000e7; 
+    color: #169b21cc; 
     font-size: 20px;
-  }
+    margin-right: 25px;
+   }
   
   .logged-out {
     color: #000000e5; 
@@ -111,18 +100,17 @@ h1 {
 /* Estilos para los elementos del formulario */
 #card-title {
     color: #000000; /* Cambia el color del texto a rojo */
-=======
+   }
 .plantita {
     width: 50px;
     height: 50px;
->>>>>>> 8fa36faea3265f76283a6f787eb894344655f0a8
+
 }
 .plantita2 {
     margin-left: 145px;
     width: 50px;
     height: 50px;
 }
-<<<<<<< HEAD
 
 #btn-task-save {
     background-color: #13330ac2; /* Cambia el color de fondo del botón a azul */
@@ -172,17 +160,9 @@ h1 {
 }
 
 
-
-
-
-
-
-
-=======
 .plantita3 {
    
     margin-left: 150px;
     width: 50px;
     height: 50px;
 }
->>>>>>> 8fa36faea3265f76283a6f787eb894344655f0a8
