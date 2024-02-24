@@ -18,11 +18,18 @@ body {
     background-repeat: no-repeat; /* No repetir la imagen */
 }
 
+/* Estilos específicos para cada div */
+#background-image-1 {
+    background-image: url('/assets/img/1.png'); /* Ruta de la primera imagen */
+}
+
+#background-image-2 {
+    background-image: url('/assets/img/2.png'); /* Ruta de la segunda imagen */
+}
 
 
 .fondo {
-      background:  rgba(26, 202, 35, 0.534);
-    
+      background-image: url(/assets/img/1.png);
       background-size: cover;
 
      
@@ -31,10 +38,9 @@ body {
   #task-main-container {
       min-height: 100vh; 
   }
-
-
+  
   .navbar-metallic {
-      border: 2px solid rgba(165, 20, 20, 0); /* Define un borde plateado */
+      border: 2px solid silver; /* Define un borde plateado */
       background-size: 400% 400%; /* Tamaño del degradado */
       animation: gradientAnimation 5s ease infinite; /* Agrega una animación para el degradado */
       position: relative; /* Asegura que el degradado esté contenido dentro del navbar */
@@ -72,6 +78,11 @@ body {
 
 
 
+#mapac{
+    width: 200px;
+    height: 200px;
+
+}
 
 /* Estilos personalizados para los botones en el modal Signin */
 #signin-modal button[type="submit"] {
@@ -88,7 +99,7 @@ body {
 
   /* Cambiar el color del texto del enlace de logout */
   #logout {
-    color: #0026ffb2; 
+    color: #28d628e0; 
   }
   
   .logged-out {
@@ -97,3 +108,45 @@ body {
   .logged-out:hover {
     color: #2f00ff8f;
   }
+
+/* Estilos para los elementos del formulario */
+#card-title {
+    color: #000000; /* Cambia el color del texto a rojo */
+}
+
+#task-title {
+    color: #000000; /* Cambia el color del texto a verde */
+}
+
+#btn-task-save {
+    background-color: #13330ac2; /* Cambia el color de fondo del botón a azul */
+    color: #ffffff; /* Cambia el color del texto del botón a blanco */
+}
+/* Cambiar el tamaño de las letras */
+#card-title {
+    font-size: 24px; /* Tamaño de fuente para "Title" */
+}
+
+
+/* Cambiar el color y tamaño de las letras del label "Content" */
+#contenido {
+    font-size: 24px; /* Tamaño de fuente */
+    color: rgb(0, 0, 0); /* Color de las letras */
+}
+
+#task-title {
+    font-size: 23px; /* Tamaño de fuente para "Content" y "Create Task" */
+}
+
+#btn-task-save {
+    font-size: 23px; /* Tamaño de fuente para el botón */
+  
+}
+/* Estilos para el contenedor del formulario */
+#task-form-container {
+    background-color: #f7f7f7; /* Color de fondo del contenedor */
+    border: 1px solid #ddd; /* Borde del contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    border-radius: 10px; /* Redondear los bordes del contenedor */
+}
+
