@@ -9,16 +9,33 @@
     
 body {
       height: 100vh;
+      
+}
+/* Estilo base para los divs */
+.background-image {
+    height: 100vh; /* Altura del div igual a la altura de la ventana */
+    background-size: cover; /* Cubrir todo el div con la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
 }
 
-h1 {
-    color: rgba(49, 204, 132, 0.39);
+/* Estilos específicos para cada div */
+#background-image-1 {
+    background-image: url('/assets/img/1.png'); /* Ruta de la primera imagen */
 }
+
+#background-image-2 {
+    background-image: url('/assets/img/2.png'); /* Ruta de la segunda imagen */
+}
+
+
+
+
 
 .fondo {
       background-image: url(./fondo.jpg);
       background-size: cover;
-      background-position: center;
+
+     
   }
   
   #task-main-container {
@@ -85,17 +102,12 @@ h1 {
 
   /* Cambiar el color del texto del enlace de logout */
   #logout {
-    color: #00ffb3e5; 
+    color: #28d628e0; 
   }
   
   .logged-out {
-    color: #f1e8e8e5; 
+    color: #000000e5; 
   }
   .logged-out:hover {
-    color: #48c2388f;
+    color: #2f00ff8f;
   }
-  .navbar-brand {
-    color: #72b3c78f; 
-  }
-  
->>>>>>> ef1974131b9cf66ee62b1fa3550c1cdc6c7ae676
