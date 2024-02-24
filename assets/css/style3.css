@@ -41,11 +41,27 @@ body {
 }
 
 h1 {
-  font-size: 4vw;
+  font-size: 3.5vw;
   color: white;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 1vw;
 }
+
+
+
+@media only screen and (max-width: 480px) {
+      h1 {
+        font-size: 2vw;
+      }
+    }
+@media (max-width: 600px) {
+      h1 {
+        font-size: 4vw;
+      }
+    }
+
+
+
 
 marquee {
   margin-top: 50vh;
@@ -54,10 +70,23 @@ marquee {
 #uno,
 #dos {
   color: white;
-  font-size: 2vw;
+  font-size: 1.5vw;
   text-align: center;
   margin-top: 2vh;
 }
+
+@media only screen and (max-width: 480px) {
+      #uno,
+      #dos {
+        font-size: 2vw;
+      }
+    }
+@media (max-width: 600px) {
+      #uno,
+      #dos {
+        font-size: 3vw;
+      }
+    }
 
 #verde {
   margin: 0 auto;
@@ -69,3 +98,4 @@ marquee {
   text-align: center;
   margin-top: 5vh;
 }
+
