@@ -31,7 +31,8 @@ body {
 
 
 .fondo {
-      background:  rgba(118, 214, 99, 0.658);
+      background:  rgba(26, 202, 35, 0.534);
+    
       background-size: cover;
 
      
@@ -92,7 +93,7 @@ body {
 
   /* Cambiar el color del texto del enlace de logout */
   #logout {
-    color: #44d1a7e0; 
+    color: #28d628e0; 
   }
   
   .logged-out {
