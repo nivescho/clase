@@ -4,7 +4,7 @@
       font-family: "Anta", sans-serif;
       font-weight: 400;
       font-style: normal;
-      
+
     }
     
 body {
@@ -16,7 +16,7 @@ h1 {
 }
 
 .fondo {
-      background: linear-gradient(to bottom, black, rgb(0, 128, 90));
+      background-image: url(./fondo.jpg);
       background-size: cover;
       background-position: center;
   }
