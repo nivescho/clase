@@ -4,6 +4,7 @@
       font-family: "Anta", sans-serif;
       font-weight: 400;
       font-style: normal;
+
     }
     
 body {
@@ -20,20 +21,13 @@ body {
 
 
 .fondo {
-      background:  rgba(0, 192, 10, 0.548);
-        background-image: url('/assets/img/1.png'); 
+      background:  rgba(26, 202, 35, 0.534);
+    
       background-size: cover;
+
+     
   }
   
-  .background-image {
-    width: 100%;  
-    height: 400px; 
-    background-image: url('/assets/img/2.png'); 
-    background-size: cover; 
-    background-position: center; 
-}
-
-
   #task-main-container {
       min-height: 100vh; 
   }
@@ -74,6 +68,10 @@ body {
     border-color: #0d7564;
     border-width: 3px;
 }
+
+
+
+
 
 /* Estilos personalizados para los botones en el modal Signin */
 #signin-modal button[type="submit"] {
