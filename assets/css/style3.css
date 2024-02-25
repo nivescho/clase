@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: content-box;
   font-family: "DotGothic16", sans-serif;
+  
 }
 
 body {
@@ -99,3 +100,28 @@ marquee {
   margin-top: 5vh;
 }
 
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+.button a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #5ecc15;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.button a:hover {
+  transform: scale(1.2);
+}
