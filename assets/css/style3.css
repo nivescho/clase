@@ -47,8 +47,6 @@ h1 {
   margin-top: 1vw;
 }
 
-
-
 @media only screen and (max-width: 480px) {
       h1 {
         font-size: 2vw;
@@ -59,9 +57,6 @@ h1 {
         font-size: 4vw;
       }
     }
-
-
-
 
 marquee {
   margin-top: 50vh;

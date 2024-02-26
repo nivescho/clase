@@ -5,14 +5,26 @@
       font-weight: 400;
       font-style: normal;
     }
-    
     body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
         background-color: #f1f1f1;
         background-image: url('/animacion.html');
         animation: myAnimation 5s infinite;
         cursor: url('./cursor2.png'), auto;
+        
     }
 
+
+
+
+
+
+
+    
     @keyframes myAnimation {
         0% { background-color: #f1f1f1; }
         50% { background-color: #cccccc; }
