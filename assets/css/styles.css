@@ -56,11 +56,11 @@ h1 {
     color: #abad17; 
 }
 .custom-modal .modal-content {
-    background-color:#19b15dd5 ; 
-    color:  #bd5fbd;
+    background-color:#18a156d5 ; 
+    color:  rgb(5, 58, 27);
 }
 .custom-modal .modal-content {
-    border-color: #1ac5a9;
+    border-color: rgb(5, 58, 27);
     border-width: 3px;
 }
 #mapac{
@@ -72,6 +72,7 @@ h1 {
     background-color: #aa101000; /* Azul */
     color: rgba(255, 255, 255, 0.719); /* Texto blanco */
     border-color: rgb(13, 117, 44);
+    font-size: 20px;
 }
 #signin-modal #google-login {
     background-color:#aa101000 ; /* Amarillo */
@@ -80,14 +81,20 @@ h1 {
 }
   /* Cambiar el color del texto del enlace de logout */
   #logout {
-    color: #169b21cc; 
+    color: #000000cc; 
     font-size: 20px;
     margin-right: 25px;
    }
   
   .logged-out {
     color: #000000e5; 
-    margin-right: 35px;
+    margin-right: 25px;
+    margin-top: -150px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 15px;
+    width: 200px;
+    
     
   }
   .logged-out:hover {
