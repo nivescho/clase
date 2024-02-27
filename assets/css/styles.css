@@ -1,30 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
-
 * {
       font-family: "Anta", sans-serif;
       font-weight: 400;
       font-style: normal;
     }
+
+body {
+      height: 100vh;
+      cursor: url('../img/cursor2.png'), auto ;
+}
     body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
         background-color: #f1f1f1;
         background-image: url('/animacion.html');
         animation: myAnimation 5s infinite;
         cursor: url('./cursor2.png'), auto;
-        
     }
 
-
-
-
-
-
-
-    
     @keyframes myAnimation {
         0% { background-color: #f1f1f1; }
         50% { background-color: #cccccc; }
@@ -35,52 +26,58 @@ h1 {
     color: rgb(204, 235, 217);
 }
 
-  
+.fondo {
+      background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(5, 180, 72));
+      background-size: cover;
+      background-position: center;
+  }
+
   #task-main-container {
       min-height: 100vh; 
   }
-  
 
-  
 
-  
+
+  @keyframes gradientAnimation {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+
   .custom-modal .modal-content {
     background-color: #99861d; 
     color: #abad17; 
 }
-
 .custom-modal .modal-content {
     background-color:#19b15dd5 ; 
     color:  #bd5fbd;
 }
-
 .custom-modal .modal-content {
     border-color: #1ac5a9;
     border-width: 3px;
 }
-
 #mapac{
     width: 200px;
     height: 200px;
-
 }
-
-
-
 /* Estilos personalizados para los botones en el modal Signin */
 #signin-modal button[type="submit"] {
     background-color: #aa101000; /* Azul */
     color: rgba(255, 255, 255, 0.719); /* Texto blanco */
     border-color: rgb(13, 117, 44);
 }
-
 #signin-modal #google-login {
     background-color:#aa101000 ; /* Amarillo */
     color: rgba(255, 255, 255, 0.719); /* Texto negro */
     border-color:#0d7530 ; /* Borde amarillo */
 }
-
-
   /* Cambiar el color del texto del enlace de logout */
   #logout {
     color: #169b21cc; 
@@ -98,9 +95,6 @@ h1 {
     font-size: 23px;
     margin-right: 25px;
   }
-
-
-
 /* Estilos para los elementos del formulario */
 #card-title {
     color: #000000; /* Cambia el color del texto a rojo */
@@ -108,36 +102,29 @@ h1 {
 .plantita {
     width: 50px;
     height: 50px;
-
 }
 .plantita2 {
     margin-left: 145px;
     width: 50px;
     height: 50px;
 }
-
 #btn-task-save {
     background-color: #13330ac2; /* Cambia el color de fondo del botón a azul */
     color: #ffffff; /* Cambia el color del texto del botón a blanco */
     margin-top: 17px;
-
 }
 /* Cambiar el tamaño de las letras */
 #card-title {
     font-size: 24px; /* Tamaño de fuente para "Title" */
 }
-
-
 /* Cambiar el color y tamaño de las letras del label "Content" */
 #contenido {
     font-size: 24px; /* Tamaño de fuente */
     color: rgb(0, 0, 0); /* Color de las letras */
 }
-
 #task-title {
     font-size: 16px; /* Tamaño de fuente para "Content" y "Create Task" */
 }
-
 #btn-task-save {
     font-size: 23px; /* Tamaño de fuente para el botón */
   
@@ -162,8 +149,6 @@ h1 {
     width: 650px; /* Establecer un ancho fijo para el contenedor */
     height: 200px; /* Establecer una altura fija para el contenedor */
 }
-
-
 .plantita3 {
    
     margin-left: 150px;
