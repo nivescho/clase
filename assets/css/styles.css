@@ -4,53 +4,34 @@
       font-weight: 400;
       font-style: normal;
     }
-
-body {
-      height: 100vh;
-      cursor: url('../img/cursor2.png'), auto ;
-}
     body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
         background-color: #f1f1f1;
         background-image: url('/animacion.html');
         animation: myAnimation 5s infinite;
         cursor: url('./cursor2.png'), auto;
+        
     }
-
+    
     @keyframes myAnimation {
         0% { background-color: #f1f1f1; }
         50% { background-color: #cccccc; }
         100% { background-color: #f1f1f1; }
     }
-
 h1 {
     color: rgb(204, 235, 217);
 }
-
-.fondo {
-      background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(5, 180, 72));
-      background-size: cover;
-      background-position: center;
-  }
-
+  
   #task-main-container {
       min-height: 100vh; 
   }
-
-
-
-  @keyframes gradientAnimation {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
-  }
-
-
+  
+  
+  
   .custom-modal .modal-content {
     background-color: #99861d; 
     color: #abad17; 
@@ -72,7 +53,6 @@ h1 {
     background-color: #aa101000; /* Azul */
     color: rgba(255, 255, 255, 0.719); /* Texto blanco */
     border-color: rgb(13, 117, 44);
-    font-size: 20px;
 }
 #signin-modal #google-login {
     background-color:#aa101000 ; /* Amarillo */
@@ -81,22 +61,14 @@ h1 {
 }
   /* Cambiar el color del texto del enlace de logout */
   #logout {
-    color: #000000cc; 
+    color: #169b21cc; 
     font-size: 20px;
     margin-right: 25px;
    }
   
   .logged-out {
     color: #000000e5; 
-    margin-right: 25px;
-    margin-top: -150px;
-    font-size: 30px;
-    background-color: white;
-    border-radius: 15px;
-    width: 200px;
-    display: flex;
-    text-align: center;
-    opacity: 60%;
+    margin-right: 35px;
     
   }
   .logged-out:hover {
