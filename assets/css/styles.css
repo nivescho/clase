@@ -97,7 +97,9 @@ h1 {
     background-color: white;
     border-radius: 15px;
     width: 200px;
-    
+    display: flex;
+    text-align: center;
+    opacity: 60%;
     
   }
   .logged-out:hover {
