@@ -13,33 +13,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <link rel="icon" href="./quitar.png">
-     
-    
+
 </head>
 <body class="fondo">
-  <iframe src="animacion.html" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
-    <nav class="navbar navbar-expand-lg navbar-metallic border-4">
-        <div class="container-fluid">
-         
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link logged-out" href="#" data-bs-toggle="modal" data-bs-target="#signin-modal">Signin</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link logged-out" href="#" data-bs-toggle="modal" data-bs-target="#signup-modal">Signup</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link logged-in" id="logout" href="#">logout</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-   
+  <iframe src="animacion.html" style="position: fixed; z-index: -1; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe> 
+    <li>
+      <a class="logged-out" href="#" data-bs-toggle="modal" data-bs-target="#signin-modal">Signin</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link logged-out" href="#" data-bs-toggle="modal" data-bs-target="#signup-modal">Signup</a>
+    </li>
+
+
     <main row ></main>
     <main class="row w-75 mx-auto" id="task-main-container">
       <div class="col-md-6 mb-3" id="task-form-container">
@@ -82,8 +67,8 @@
                   <input id="email-signin" type="email" class="form-control mb-3" placeholder="Email" required>
                   <label for="password-signin" class="mb-1">Password</label>
                   <input id="password-signin" type="password" class="form-control mb-3" placeholder="******" required>
-                  <button type="submit" class="btn btn-primary form-control mb-2" onmouseover="changeCursor()">login</button>
-                  <button id="google-login" class="btn btn-primary form-control mb-2" onmouseover="changeCursor()">google</button>
+                  <button type="submit" class="btn btn-primary form-control mb-3" onmouseover="changeCursor()">login</button>
+                  <button id="google-login" class="btn btn-primary form-control mb-3" onmouseover="changeCursor()">google</button>
                   <img src="gif plantita.gif" class="plantita" width="30px" height="30px" alt="">
                   <img src="gif plantita.gif" class="plantita2" width="30px" height="30px" alt="">
                   <img src="gif plantita.gif" class="plantita3" width="30px" height="30px" alt="">
