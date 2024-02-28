@@ -29,30 +29,12 @@
 h1 {
     color: rgb(204, 235, 217);
 }
-
-.fondo {
-      background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(5, 180, 72));
-      background-size: cover;
-      background-position: center;
-  }
   
   #task-main-container {
       min-height: 100vh; 
   }
   
-
   
-  @keyframes gradientAnimation {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
-  }
   
   .custom-modal .modal-content {
     background-color: #99861d; 
@@ -66,14 +48,10 @@ h1 {
     border-color: rgb(5, 58, 27);
     border-width: 3px;
 }
-
-
 #mapac{
     width: 200px;
     height: 200px;
 }
-
-
 /* Estilos personalizados para los botones en el modal Signin */
 #signin-modal button[type="submit"] {
     background-color: #aa101000; /* Azul */
@@ -95,14 +73,33 @@ h1 {
   .logged-out {
     color: #000000e5; 
     margin-right: 35px;
-    
-    
+       
   }
   .logged-out:hover {
     color: #205024;
     font-size: 23px;
     margin-right: 25px;
   }
+  .navbar {
+    background-color: #fff; /* Color de fondo de la barra de navegación */
+    border-bottom: 1px solid #ddd; /* Borde inferior */
+    padding: 10px 0; /* Espaciado interno */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 25px; /* Espaciado entre enlaces */
+    color: #a11e1e; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+}
+
+
 /* Estilos para los elementos del formulario */
 #card-title {
     color: #000000; /* Cambia el color del texto a rojo */

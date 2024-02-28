@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+* {
+      font-family: "Anta", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f1f1f1;
+        background-image: url('/animacion.html');
+        animation: myAnimation 5s infinite;
+        cursor: url('./cursor2.png'), auto;
+
+        cursor: url('./cursor2.png'), auto; 
+    }
+
+
+    @keyframes myAnimation {
+        0% { background-color: #f1f1f1; }
+        50% { background-color: #cccccc; }
+        100% { background-color: #f1f1f1; }
+    }
+h1 {
+    color: rgb(204, 235, 217);
+}
+  
+  #task-main-container {
+      min-height: 100vh; 
+  }
+  
+  
+  
+  .custom-modal .modal-content {
+    background-color: #99861d; 
+    color: #abad17; 
+}
+.custom-modal .modal-content {
+    background-color:#18a156d5 ; 
+    color:  rgb(5, 58, 27);
+}
+.custom-modal .modal-content {
+    border-color: rgb(5, 58, 27);
+    border-width: 3px;
+}
+#mapac{
+    width: 200px;
+    height: 200px;
+}
