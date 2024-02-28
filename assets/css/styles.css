@@ -4,48 +4,63 @@
       font-weight: 400;
       font-style: normal;
     }
+
+body {
+      height: 100vh;
+      cursor: url('../img/cursor2.png'), auto ;
+}
     body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
+        background-color: #f1f1f1;
         background-image: url('/animacion.html');
         animation: myAnimation 5s infinite;
-        cursor: url('./cursor2.png'), auto; 
+        cursor: url('./cursor2.png'), auto;
     }
 
-
-
-
-
-
-    
     @keyframes myAnimation {
         0% { background-color: #f1f1f1; }
         50% { background-color: #cccccc; }
         100% { background-color: #f1f1f1; }
     }
+
 h1 {
     color: rgb(204, 235, 217);
 }
-  
+
+.fondo {
+      background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(5, 180, 72));
+      background-size: cover;
+      background-position: center;
+  }
+
   #task-main-container {
       min-height: 100vh; 
   }
-  
-  
-  
+
+
+
+  @keyframes gradientAnimation {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+
   .custom-modal .modal-content {
     background-color: #99861d; 
     color: #abad17; 
 }
 .custom-modal .modal-content {
-    background-color:#18a156d5 ; 
-    color:  rgb(5, 58, 27);
+    background-color:#19b15dd5 ; 
+    color:  #bd5fbd;
 }
 .custom-modal .modal-content {
-    border-color: rgb(5, 58, 27);
+    border-color: #1ac5a9;
     border-width: 3px;
 }
 #mapac{
@@ -73,33 +88,13 @@ h1 {
   .logged-out {
     color: #000000e5; 
     margin-right: 35px;
-       
+    
   }
   .logged-out:hover {
     color: #205024;
     font-size: 23px;
     margin-right: 25px;
   }
-  .navbar {
-    background-color: #fff; /* Color de fondo de la barra de navegación */
-    border-bottom: 1px solid #ddd; /* Borde inferior */
-    padding: 10px 0; /* Espaciado interno */
-}
-
-.navbar-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.navbar-nav .nav-link {
-    margin-right: 25px; /* Espaciado entre enlaces */
-    color: #a11e1e; /* Color del texto */
-    text-decoration: none; /* Quitar subrayado de los enlaces */
-}
-
-
 /* Estilos para los elementos del formulario */
 #card-title {
     color: #000000; /* Cambia el color del texto a rojo */

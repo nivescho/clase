@@ -24,29 +24,3 @@
         50% { background-color: #cccccc; }
         100% { background-color: #f1f1f1; }
     }
-h1 {
-    color: rgb(204, 235, 217);
-}
-  
-  #task-main-container {
-      min-height: 100vh; 
-  }
-  
-  
-  
-  .custom-modal .modal-content {
-    background-color: #99861d; 
-    color: #abad17; 
-}
-.custom-modal .modal-content {
-    background-color:#18a156d5 ; 
-    color:  rgb(5, 58, 27);
-}
-.custom-modal .modal-content {
-    border-color: rgb(5, 58, 27);
-    border-width: 3px;
-}
-#mapac{
-    width: 200px;
-    height: 200px;
-}
