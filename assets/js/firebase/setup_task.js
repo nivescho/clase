@@ -17,7 +17,7 @@ export default function setupTask(user) {
             const data = doc.data();
 
             const numLines = data.description.split('\n').length;
-            const backgroundSize = `calc(${numLines * 24}px + 624px)`; // Ajusta 20px por línea y agrega 200px como tamaño mínimo
+            const backgroundSize = `calc(${numLines * 10}px + 530px)`; // Ajusta 20px por línea y agrega 200px como tamaño mínimo
 
             html += `
                 <div class="card mb-3" style="background-size: ${backgroundSize};">
