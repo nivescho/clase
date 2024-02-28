@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
   font-family: "DotGothic16", sans-serif;
 }
-
 body {
   background-image: url(./fondito.gif);
   background-: no-repeat;
@@ -15,13 +13,11 @@ body {
   height: 100vh;
   cursor: url('./cursor2.png'), auto;
 }
-
 .buttons {
   display: flex;
   justify-content: space-around;
   padding: 20px;
 }
-
 .buttons a {
   text-decoration: none;
   font-size: 28px;
@@ -35,17 +31,17 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
   transition: all .4s ease-in-out;
 }
-
 .buttons a:hover {
   transform: scale(1.2);
 }
-
 h1 {
   font-size: 3.5vw;
   color: white;
   text-align: center;
   margin-top: 1vw;
 }
+
+
 
 @media only screen and (max-width: 480px) {
       h1 {
@@ -58,10 +54,12 @@ h1 {
       }
     }
 
+
+
+
 marquee {
   margin-top: 50vh;
 }
-
 #uno,
 #dos {
   color: white;
@@ -69,7 +67,6 @@ marquee {
   text-align: center;
   margin-top: 2vh;
 }
-
 @media only screen and (max-width: 480px) {
       #uno,
       #dos {
@@ -82,7 +79,6 @@ marquee {
         font-size: 3vw;
       }
     }
-
 #verde {
   margin: 0 auto;
   width: 20vw;
@@ -93,4 +89,3 @@ marquee {
   text-align: center;
   margin-top: 5vh;
 }
-
