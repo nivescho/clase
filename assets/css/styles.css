@@ -5,16 +5,17 @@
       font-style: normal;
     }
 
-body {
-      height: 100vh;
-      cursor: url('../img/cursor2.png'), auto ;
-}
     body {
         background-color: #f1f1f1;
-        background-image: url('/animacion.html');
+        background-image: url('/assets/css/fondito.gif');
         animation: myAnimation 5s infinite;
-        cursor: url('./cursor2.png'), auto;
+        cursor: url('/assets/css/cursor2.png'), auto ;
+
+        
+
     }
+
+ 
 
     @keyframes myAnimation {
         0% { background-color: #f1f1f1; }

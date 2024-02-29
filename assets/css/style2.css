@@ -3,15 +3,13 @@
 .card-body {
     color: #000000; /* Color del texto en el cuerpo de la tarjeta */
     font-size: 25px; /* Establecer el tamaño de la fuente */
-
+   
 }
-
 .card-body h6,
 .card-body h5 {
     font-size: 16px; /* Establecer el tamaño de la fuente */
     color: #000000; /* Color del nombre, fecha y hora */
 }
-
 .card-title {
     color: #000000; /* Color del título de la tarjeta */
     font-size: 20px; /* Establecer el tamaño de la fuente */
@@ -71,7 +69,6 @@
     background-color: #db0000be; /* Color de fondo celeste bebé más claro al pasar el cursor */
     border-color: #8700b1d2; /* Color del borde al pasar el cursor */
 }
-
 
 
 

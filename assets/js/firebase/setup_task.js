@@ -35,7 +35,7 @@ export default function setupTask(user) {
                 </div>
             `;
         });
-
+    
         tasksContainer.innerHTML = html;
 
         const btnsDelete = document.querySelectorAll(".btn-delete-custom");

@@ -51,9 +51,7 @@ signupForm.addEventListener('submit' , async (e)=>{
 
             else  {
                   showMessage('Something went wrong','red');
-
-            
-
+                  
             }
       }
 });
