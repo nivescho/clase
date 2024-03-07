@@ -77,7 +77,7 @@ taskForm.addEventListener("submit", (e) => {
     const description = taskForm["task-content"].value;
 
     if (!editStatus) {
-        createTask(title, description, userName, date, time);
+        createTask(title, description, displayName, date, time ,photoURL );
     } else {
         updateTask(id, ({
             title: title,
