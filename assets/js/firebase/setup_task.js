@@ -21,20 +21,25 @@ export default function setupTask(user) {
             console.log(data)
 
             html += `
-                <div class="card mb-3" style="background-size: ${backgroundSize};">
-                    <div class="card-body">
-                        <h6> ${data.displayName}</h6>
-                        <h5> ${data.date}</h5>
-                        <h5> ${data.time}</h5>
-                        <img ${data.photoURL} >
-                        <h4 class="card-title">${data.title}</h4>
-                        <p class="card-text">${data.description}</p>
-                        <div class="row">
-                            <button class='btn btn-rojo btn-delete-custom mx-auto col-5' data-id='${doc.id}'>Delete</button>
-                            <button class='btn btn-celeste btn-edit-custom mx-auto col-5' data-id='${doc.id}'>Edit</button>
-                        </div>
-                    </div>
+            <div class="card mb-3" style="background-size: ${backgroundSize};">
+            <div class="card-body position-relative">
+                <h6> ${data.displayName}</h6>
+                <h5> ${data.date}</h5>
+                <h5> ${data.time}</h5>
+                <div class="position-absolute top-0" style="right: 10px;">
+                    <img src="${data.photoURL}" class="rounded-circle mt-4" style="width: 110px; height: 110px;" alt="Imagen de perfil">
                 </div>
+                <h4 class="card-title">${data.title}</h4>
+                <p class="card-text">${data.description}</p>
+                <div class="row">
+                    <button class='btn btn-rojo btn-delete-custom mx-auto col-5' data-id='${doc.id}'>Delete</button>
+                    <button class='btn btn-celeste btn-edit-custom mx-auto col-5' data-id='${doc.id}'>Edit</button>
+                </div>
+            </div>
+        </div>
+        
+        
+        
             `;
         });
     
@@ -71,7 +76,8 @@ taskForm.addEventListener("submit", (e) => {
     const fullDate = new Date();
     const date = getFormattedDate(fullDate);
     const time = getFormattedHour(fullDate);
-    const userName = userGlobal.displayName;
+    const displayName = userGlobal.displayName;
+    const photoURL = userGlobal.photoURL;
 
     const title = taskForm["task-title"].value;
     const description = taskForm["task-content"].value;
