@@ -54,8 +54,13 @@
       border-right: 1px solid #ddd;
   }
   
-  #task-form-container,
-  #tasks-container {
-      padding: 20px;
+  .nav-item {
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
   }
   
+  /* Estilos para elementos con la clase "nav-link" y "logged-out" */
+  .nav-link.logged-out {
+    /* Agrega aquí tus estilos específicos para los elementos logged-out */
+  }
+ 

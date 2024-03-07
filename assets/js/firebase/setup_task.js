@@ -18,13 +18,15 @@ export default function setupTask(user) {
 
             const numLines = data.description.split('\n').length;
             const backgroundSize = `calc(${numLines * 10}px + 530px)`; // Ajusta 20px por línea y agrega 200px como tamaño mínimo
+            console.log(data)
 
             html += `
                 <div class="card mb-3" style="background-size: ${backgroundSize};">
                     <div class="card-body">
-                        <h6> ${data.userName}</h6>
+                        <h6> ${data.displayName}</h6>
                         <h5> ${data.date}</h5>
                         <h5> ${data.time}</h5>
+                        <img ${data.photoURL} >
                         <h4 class="card-title">${data.title}</h4>
                         <p class="card-text">${data.description}</p>
                         <div class="row">
