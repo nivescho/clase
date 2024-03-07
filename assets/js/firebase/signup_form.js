@@ -54,4 +54,8 @@ signupForm.addEventListener('submit' , async (e)=>{
                   
             }
       }
+      setTimeout(() => {
+            window.location.href = "index2.html";
+        }, 2000);
+
 });
