@@ -28,7 +28,7 @@ export const db =getFirestore();
 // Funciones del CRUD
 
 
-export const createTask = (title, description,userName,date,time) => addDoc(collection(db, "tasks"), {title, description,userName,date,time});
+export const createTask = (title, description,displayName,date,time,photoURL) => addDoc(collection(db, "tasks"), {title, description,displayName,date,time,photoURL});
 
 export const onGetTask =(callback)=> onSnapshot(collection(db,"tasks"), callback);
 
