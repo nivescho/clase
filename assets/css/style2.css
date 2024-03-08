@@ -1,4 +1,4 @@
-.fondo2 {
+body{
     background-image: url('/assets/css/maapp.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,11 +9,4 @@
     left: 0;
     z-index: -1;
 }
-
-
-
-
-
-
-
  
