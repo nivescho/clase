@@ -31,5 +31,10 @@ signinForm.addEventListener('submit', async (e)=>{
       
                   console.log(error)
             }
+              setTimeout(() => {
+                  window.location.href = "index2.html";
+              }, 2000);
+            
+          
 })
 
