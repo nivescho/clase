@@ -56,6 +56,16 @@
 
 
   
+.modal-title{
+
+  color: black;
+}
+        .logout {
+            margin: 3rem auto;
+        }
+        .modal-body {
+            padding: 2rem;
+        }
 
   
   .footer {
@@ -121,3 +131,7 @@
     /* Agrega aquí tus estilos específicos para los elementos logged-out */
   }
  
+
+  .card-text{
+    color:#207417
+  }
