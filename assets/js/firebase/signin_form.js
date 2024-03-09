@@ -27,5 +27,4 @@ signinForm.addEventListener('submit', async (e)=>{
                   window.location.href = "index2.html";
               }, 2000);
 
-
 })

@@ -55,7 +55,17 @@
 }
 
 
+  
+.modal-title{
 
+  color: black;
+}
+        .logout {
+            margin: 3rem auto;
+        }
+        .modal-body {
+            padding: 2rem;
+        }
 
 
   .footer {
@@ -158,29 +168,15 @@
 /* Estilos para el contenedor del formulario de inicio de sesión */
 .modal-body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas si no caben en una sola */
-}
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  }
+  
+  /* Estilos para elementos con la clase "nav-link" y "logged-out" */
+  .nav-link.logged-out {
+    /* Agrega aquí tus estilos específicos para los elementos logged-out */
+  }
+ 
 
-/* Estilos para las plantitas */
-.plantita {
-    width: 50px;
-    height: 50px;
-    margin: 0 10px; /* Espacio horizontal entre las plantitas */
-}
-
-.plantita2 {
-    width: 50px;
-    height: 50px;
-    margin: 0 10px; /* Espacio horizontal entre las plantitas */
-}
-
-.plantita3 {
-    width: 50px;
-    height: 50px;
-    margin: 0 10px; /* Espacio horizontal entre las plantitas */
-}
-
-
-
+  .card-text{
+    color:#207417
+  }

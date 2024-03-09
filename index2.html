@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaAppache</title>
+    <title>Red Social</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="/assets/css/style2.css"/>
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <h1>MaAppache</h1>
+    <h1>Red Social</h1>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,26 +42,27 @@
         </div>
         <!-- Aquí se mostrarán las tareas -->
         <div class="col-md-6" id="tasks-container">
-            <!-- Tarea 1 -->
-            <div class="task">
-                <h3>Post 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="actions">
+            <div class="post">
+                <div class="post-header">
+                    <img src="avatar.jpg" alt="Avatar" class="avatar">
+                    <h4 class="username">Usuario</h4>
+                </div>
+                <div class="post-content">
+                    <p>Contenido de la publicación...</p>
+                </div>
+                <div class="post-actions">
                     <button class="btn-like"><i class="fas fa-heart"></i> Like</button>
-                    <button class="btn-share"><i class="fas fa-share"></i> Compartir</button>
-                    <button class="btn-save"><i class="fas fa-bookmark"></i> Guardar</button>
+                    <button class="btn-comment"><i class="fas fa-comment"></i> Comment</button>
+                </div>
+                <div class="comments">
+                    <div class="comment">
+                        <img src="avatar.jpg" alt="Avatar" class="avatar">
+                        <p class="comment-text">Comentario...</p>
+                    </div>
+                    <!-- Más comentarios aquí -->
                 </div>
             </div>
-            <!-- Tarea 2 -->
-            <div class="task">
-                <h3>Post 2</h3>
-                <p>Nulla facilisi. Ut eu libero nec nunc ultricies fermentum nec id libero.</p>
-                <div class="actions">
-                    <button class="btn-like"><i class="fas fa-heart"></i> Like</button>
-                    <button class="btn-share"><i class="fas fa-share"></i> Compartir</button>
-                    <button class="btn-save"><i class="fas fa-bookmark"></i> Guardar</button>
-                </div>
-            </div>
+            <!-- Más publicaciones aquí -->
         </div>
     </main> 
 
@@ -69,4 +70,12 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script type="module" src="assets/js/main.js"></script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+
+
+
+
+>>>>>>> 650a9a42ebff268f1a77b7fcf1d67c6e307c8b8f
