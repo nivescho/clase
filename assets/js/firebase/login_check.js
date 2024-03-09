@@ -10,12 +10,12 @@ export const loginCheck = user => {
     loggedInlinks.forEach(link => link.style.display = 'block');
     loggedOutlinks.forEach(link => link.style.display = 'none');
     mainTaskContainer.style.display = "flex";
+    window.location.href = "./assets/asset/redsocial.html";
     showMessage('logged in', 'orange');
    }
 else {
     loggedInlinks.forEach(link => link.style.display = 'none');
     loggedOutlinks.forEach(link => link.style.display = 'block');
     mainTaskContainer.style.display = "none";
-    showMessage('logged out', 'orange');
     }
 }

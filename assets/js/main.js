@@ -2,31 +2,23 @@ import { onAuthStateChanged} from "https://www.gstatic.com/firebasejs/10.8.0/fir
 import {auth} from "./firebase/firebase.js"
 
 import { loginCheck } from "./firebase/login_check.js";
+import { signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"
 import './firebase/signup_form.js';
 import './firebase/logout.js';
 import './firebase/signin_form.js';
 import './firebase/google_login.js';
 
+await signOut(auth);
 
 onAuthStateChanged(auth,async(user)=>
-
 {
-
-      //si e ingresado
-      if (user){
+      if (user) {
             loginCheck(user);
-            console.log(user);
-            import ("./firebase/setup_task.js").then(({default:setupTask})=>  setupTask(user));
-
       }
 
 
       //si a salido 
       else{
             loginCheck(user);
-
       }
-
-  
-
 });
